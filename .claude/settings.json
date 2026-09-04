@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Write",
+      "Shell(python *)",
+      "Shell(npm *)",
+      "Shell(npx *)",
+      "Shell(pip *)",
+      "Shell(git status)",
+      "Shell(git diff *)",
+      "Shell(git log *)",
+      "Shell(git add *)",
+      "Shell(git commit *)",
+      "Shell(docker *)",
+      "Shell(docker-compose *)"
+    ],
+    "deny": [
+      "Shell(rm -rf /)",
+      "Shell(git push --force *)",
+      "Shell(git config *)"
+    ]
+  },
+  "env": {
+    "PROJECT_NAME": "LLM_Evaluator",
+    "PYTHON_VERSION": "3.11",
+    "NODE_VERSION": "20"
+  },
+  "model": {
+    "default": "claude-sonnet-4-20250514"
+  }
+}
