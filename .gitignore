@@ -1,0 +1,50 @@
+# Claude Code local settings (contains API keys)
+.claude/settings.local.json
+.claude.local/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+.envrc
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+
+# Node
+node_modules/
+.next/
+out/
+coverage/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+*.log
+
+# Database
+*.sqlite3
+
+# Local runtime files
+*.pid
+*.seed
+*.out
